@@ -1,0 +1,22 @@
+{
+  "name": "immutable-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEANyehoon/immutable-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MEANyehoon/immutable-doc/issues"
+  },
+  "homepage": "https://github.com/MEANyehoon/immutable-doc#readme",
+  "dependencies": {
+    "immutable-js": "^0.3.1-6"
+  }
+}
