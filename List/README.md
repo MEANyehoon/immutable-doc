@@ -12,7 +12,7 @@
         List(): List<any>
         List<T>(): List<T>
         List<T>(collection: Iterable<T>): List<T>
-        
+
 > 示例
 
     const emptyList = List()    // List []

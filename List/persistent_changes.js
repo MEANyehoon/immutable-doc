@@ -144,3 +144,13 @@ logWrap('List SetSize', () => {
     console.log(originalList.setSize(6)); // List [ 1, 2, 3, 4, undefined, undefined ]
     console.log(List([]).setSize(6).map((x, i) => i + 1));  // List [ 1, 2, 3, 4, 5, 6 ]
 })
+
+
+
+logWrap('test', () => {
+    var a = [1,2,3];
+    a.length = 10;
+    console.log(a);
+    a.forEach(i => console.log(i));
+    // List([1,2,3]).setSize(5).toArray().forEach(v => console.log(v))
+})
